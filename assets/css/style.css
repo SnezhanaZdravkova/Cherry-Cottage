@@ -10,3 +10,21 @@ body {
     font-weight: 300;
     color: aqua;
 }
+
+/* Footer */
+footer {
+    height: 150px;
+
+}
+.social-networks {
+    text-align: left;
+}
+.social-networks > li {
+    display: inline;
+}
+.social-networks i {
+    font-size: 200%;
+    margin: 1%;
+    padding: 5%;
+    color: green;
+}
