@@ -11,6 +11,13 @@ body {
     color: aqua;
 }
 
+/* roberto image */
+#roberto-image {
+    height: 600px;
+    width: 100%;
+    background: url('images/pexels-roberto-shmski-9134625.jpg') no-repeat center center;
+}
+
 /* Footer */
 footer {
     height: 150px;
