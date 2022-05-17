@@ -8,7 +8,7 @@
 body {
     font-family: lato, sans-serif;
     font-weight: 300;
-    color: aqua;
+    color: black;
 }
 
 /* Heading and logo */
@@ -46,11 +46,15 @@ h1, h2 {
 }
 
 /* roberto image */
+#outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+}
 #pexels-roberto-shumski-9134625 {
     height: 600px;
     width: 100%;
-    background: url('/assets/css/images/pexels-roberto-shumski-9134625.jpg') 
-    alt="The Old Dublin Road just at the Dublin site of Portlaoise" no-repeat center center;
+    background: url('/assets/css/images/pexels-roberto-shumski-9134625.jpg') no-repeat center center;
     background-color: green;
 }
 
@@ -58,6 +62,10 @@ h1, h2 {
 footer {
     height: 150px;
     background-color: aqua;
+}
+span {
+    font-size: 280%;
+    font-weight: 400;
 }
 .social-networks {
     text-align: left;
