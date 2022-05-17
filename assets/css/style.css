@@ -15,7 +15,8 @@ body {
 #pexels-roberto-shumski-9134625 {
     height: 600px;
     width: 100%;
-    background: url('/assets/css/images/pexels-roberto-shumski-9134625.jpg' alt="The Old Dublin Road just at the Dublin site of Portlaoise") no-repeat center center;
+    background: url('/assets/css/images/pexels-roberto-shumski-9134625.jpg') 
+    alt="The Old Dublin Road just at the Dublin site of Portlaoise" no-repeat center center;
     background-color: green;
 }
 
