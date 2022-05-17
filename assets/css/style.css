@@ -24,6 +24,27 @@ h1, h2 {
     font-size: 280%;
 }
 
+/* navigation links */
+#nav-links {
+    font-size: 110%;
+    letter-spacing: 2px;
+}
+#nav-links, #logo {
+    line-height: 80px;
+}
+#nav-links li {
+    float: right;
+    list-style-type: none;
+    margin-right: 25px;
+}
+#nav-links a {
+    text-decoration: none;
+    color: black;
+}
+#nav-links a:hover {
+    border-top: 1px solid black;
+}
+
 /* roberto image */
 #pexels-roberto-shumski-9134625 {
     height: 600px;
