@@ -45,6 +45,25 @@ h1, h2 {
 #nav-links a:hover {
     border-top: 1px solid black;
 }
+#image {
+    height: 600px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+/*#pexels-photo {
+    height: 600;
+    width: 100%;
+    background: url('/assets/css/images/pexels-photo-11495863.jpeg') no-repeat center center;
+    background-color: aqua;
+    float: left;
+} */
+#image > img {
+    height: 600px;
+    width: 100%;
+    float: left;
+    position: relative;
+}
 
 /* Footer */
 footer {
