@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: lato, sans-serif;
+    font-weight: 300;
+    color: black;
+}
+
+
+/* Heading and logo */
+
+h1, h2 {
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: black;
+}
+#logo {
+    float: left;
+    font-size: 280%;
+}
+
+/* navigation links */
+#nav-links {
+    font-size: 110%;
+    letter-spacing: 2px;
+}
+#nav-links, #logo {
+    line-height: 80px;
+}
+#nav-links li {
+    float: right;
+    list-style-type: none;
+    margin-right: 25px;
+}
+#nav-links a {
+    text-decoration: none;
+    color: black;
+}
+#nav-links a:hover {
+    border-top: 1px solid black;
+}
+
+/* Footer */
+footer {
+    height: 150px;
+    background-color: aqua;
+}
+span {
+    font-size: 280%;
+    font-weight: 400;
+}
+.social-networks {
+    text-align: left;
+}
+.social-networks > li {
+    display: inline;
+}
+.social-networks i {
+    font-size: 200%;
+    margin: 1%;
+    padding: 5%;
+    color: green;
+}
+/*.aqua {
+    background-color: aqua;
+} */
