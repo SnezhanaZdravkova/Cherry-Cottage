@@ -55,8 +55,8 @@ h1, h2 {
 #pexels-roberto-shumski-9134625 {
     height: 600px;
     width: 100%;
-    background: url('/assets/css/images/pexels-roberto-shumski-9134625.jpg') no-repeat center center;
-    background-color: green;
+    background: url('/assets/css/images/pexels-photo-11495863.jpeg') no-repeat center center;
+    background-color: rgba(36, 128, 0, 0.274);
 }
 #cover-text, #cover-text h2 {
     color: aliceblue;
@@ -69,11 +69,11 @@ h1, h2 {
     letter-spacing: 2px;
     width: 400px;
     height: 200px;
-    padding-top: 40px;
-    padding-left: 10px;
-    background-color: rgba(241, 109, 107, 0.574);
+    padding-top: 20px;
+    padding-left: 20px;
+    background-color: rgba(232, 241, 107, 0.312);
     bottom: 30px;
-    right: 150px;
+    right: 250px;
     position: absolute;
 }
 
