@@ -91,6 +91,19 @@ h1, h2 {
 .signup-form > p {
     font-size: 2rem;
 }
+#join-button {
+    margin-top: 30px;
+    padding: 15px 30px 15px 30px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #3c3c3c84;
+    color: #fff;
+    display: block;
+}
+#join-button:hover {
+    background-color: green;
+    color: #fff;
+}
 
 
 /* Footer */
