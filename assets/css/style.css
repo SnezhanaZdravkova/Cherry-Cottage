@@ -101,3 +101,15 @@ span {
 /*.aqua {
     background-color: aqua;
 } */
+@media screen and (max-width: 980px) {
+    #nav-links li {
+        clear: both;
+        float: left;
+        text-align: left;
+        display: block;
+    }
+    #nav-links {
+        height: 100px;
+    }
+}
+    
