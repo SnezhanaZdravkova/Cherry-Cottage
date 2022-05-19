@@ -41,12 +41,34 @@
    <section id="image">
        <div id="pexels-photo">
            <!-- Image taken from https://www.pexels.com/photo/white-and-brown-house-near-green-grass-field-11495863/ -->
-           <img src="https://www.pexels.com/photo/white-and-brown-house-near-green-grass-field-11495863/" alt="Cherry Cottage - white and brown house near green grass field, a tranquilly place where people can rest while there car is charging up.">
+           <img src="/assets/css/images/pexels-photo-11495863.jpeg" alt="Cherry Cottage - white and brown house near green grass field, a tranquilly place where people can rest while there car is charging up.">
        </div>
      
    </section>
 
-   <section>Sign up form</section>
+   <section class="form-section">
+    <form class="signup-form" method="POST" action="https://formdump.codeinstitute.net/">
+        <h2>Signed up form!</h2>
+        <p>Welcome to Cherry Cottage</p>
+        <label for="fname">First Name</label>
+        <input id="fname" class="text-input" type="text" name="first_name" required />
+        <label for="lname">Last Name</label>
+        <input id="lname" class="text-input" type="text"  name="last_name" required />
+        <label for="email">Email Address</label>
+        <input id="email" class="text-input" type="email" name="email_address" required/>
+        <p>Purpose for your visit</p>
+        <label for="charge-up">Charging the car</label>
+        <input type="radio" id="charge-up" name="purpose_for_your_visit" value="charging-the-car">
+        <label for="poultry-products">Poultry products</label>
+        <input type="radio" id="poultry-products" name="purpose_for_your_visit" value="poultry-products">
+        <label for="relax">Take rest</label>
+        <input type="radio" id="relax" name="purpose_for_your_visit" value="take-rest">
+        
+        <input class="join-button"  type="submit" value="Submit"/>
+        </form>
+
+    
+    </section>
    <footer class="aqua">
       
        <ul class="social-networks">

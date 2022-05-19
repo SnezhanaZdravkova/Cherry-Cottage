@@ -51,19 +51,47 @@ h1, h2 {
     position: relative;
     overflow: hidden;
 }
-/*#pexels-photo {
-    height: 600;
-    width: 100%;
-    background: url('/assets/css/images/pexels-photo-11495863.jpeg') no-repeat center center;
-    background-color: aqua;
-    float: left;
-} */
-#image > img {
+#pexels-photo {
     height: 600px;
     width: 100%;
+    background: url('/assets/css/images/pexels-photo-11495863.jpeg') center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    background-color: aqua;
+    /*float: left;
+    position: absolute;*/
+} 
+/*#image > img {
+    height: 100%;
+    width: 50%;
     float: left;
-    position: relative;
+    position: absolute;
+}*/
+
+/* Form */
+.form-section {
+    clear: left;
+    background-color: #3c3c3c84;
+    height: 600px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
+.signup-form {
+    margin: 150px 10% 0 0;
+    color: #fff;
+    background-color: #3c3c3c84;
+    max-width: 400px;
+    position: absolute;
+    left: 10%;
+    padding: 30px;
+    display: block;
+}
+.signup-form > p {
+    font-size: 2rem;
+}
+
 
 /* Footer */
 footer {
