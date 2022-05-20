@@ -57,6 +57,7 @@ h1, h2 {
     width: 100%;
     background: url('/assets/css/images/pexels-photo-11495863.jpeg') no-repeat center center;
     background-color: rgba(36, 128, 0, 0.274);
+    background-size: cover;
 }
 #cover-text, #cover-text h2 {
     color: aliceblue;
@@ -97,6 +98,54 @@ hr {
     background-color: rgba(36, 128, 0, 0.274);
 }
 
+/* Signup form */
+.form-section {
+    clear: left;
+    background-color: #3c3c3c84;
+    height: 600px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.signup-form {
+    margin: 80px 10% 0 0;
+    color: #fff;
+    background-color: #3c3c3c84;
+    max-width: 400px;
+    position: absolute;
+    left: 10%;
+    padding: 30px;
+    display: block;
+}
+.signup-form > p {
+    font-size: 2rem;
+}
+.text-input {
+    background: transparent;
+    color: #fff;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 15px 0;
+    border: 1px solid #fff;
+
+}
+.text-input:hover {
+    border-color: green;
+}
+.join-button {
+    margin-top: 30px;
+    padding: 15px 30px 15px 30px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #3c3c3c84;
+    color: #fff;
+    display: block;
+}
+.join-button:hover {
+    background-color: green;
+    color: #fff;
+}
+
+
 /* Footer */
 footer {
     height: 150px;
@@ -131,6 +180,9 @@ span {
     }
     #nav-links {
         height: 10px;
+    }
+    hr {
+        display: none;
     }
 
     footer{

@@ -54,12 +54,9 @@ h1, h2 {
 #pexels-photo {
     height: 600px;
     width: 100%;
-    background: url('/assets/css/images/pexels-photo-11495863.jpeg');
-    background-repeat: no-repeat;
+    background: url('/assets/css/images/pexels-photo-11495863.jpeg') no-repeat center center;
     background-size: cover;
-    background-position: center;
-    overflow: hidden;
-    background-color: aqua;
+    background-color: rgba(36, 128, 0, 0.274);
     /*float: left;
     position: absolute;*/
 } 
