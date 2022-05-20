@@ -76,18 +76,38 @@ h1, h2 {
     right: 250px;
     position: absolute;
 }
+#poultry {
+    height: 600px;
+    background-color: rgba(0, 0, 0, .1);
+    text-align: center;
+}
+hr {
+    border-top: 1px solid black;
+    width: 100%;
+    margin: 5px 0;
+}
+#charging {
+    text-align: center;
+    height: 300px;
+    background-color: rgba(0, 0, 0, .1);
+}
+#about {
+    text-align: center;
+    height: 300px;
+    background-color: rgba(36, 128, 0, 0.274);
+}
 
 /* Footer */
 footer {
     height: 150px;
-    background-color: aqua;
+    background-color: rgba(0, 0, 0, .3);
 }
 span {
-    font-size: 280%;
+    font-size: 200%;
     font-weight: 400;
 }
 .social-networks {
-    text-align: left;
+    text-align: center;
 }
 .social-networks > li {
     display: inline;
@@ -106,10 +126,30 @@ span {
         clear: both;
         float: left;
         text-align: left;
-        display: block;
+        display: inline;
+        margin: 0;
     }
     #nav-links {
-        height: 100px;
+        height: 10px;
+    }
+
+    footer{
+        float: left;
+
+    }
+    span {
+        font-size: 150;
+        font-weight: 400;
+    }
+
+    .social-networks {
+        text-align: left;
+    }
+    .social-networks > li {
+        display: inline;
+    }
+    .social-networks i {
+        font-size: 150;
     }
 }
     
