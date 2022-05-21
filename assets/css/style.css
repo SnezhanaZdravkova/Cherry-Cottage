@@ -167,15 +167,16 @@ span {
     padding: 5%;
     color: green;
 }
-/*.aqua {
-    background-color: aqua;
-} */
+/* @media screen max-eidth: 980px */
 @media screen and (max-width: 980px) {
+    #nav-links, #logo {
+        line-height: 40px;
+    }
     #nav-links li {
         clear: both;
         float: left;
         text-align: left;
-        display: inline;
+        display: block;
         margin: 0;
     }
     #nav-links {
@@ -185,12 +186,9 @@ span {
         display: none;
     }
 
-    footer{
-        float: left;
-
-    }
+    
     span {
-        font-size: 150;
+        font-size: 150%;
         font-weight: 400;
     }
 
@@ -201,7 +199,37 @@ span {
         display: inline;
     }
     .social-networks i {
-        font-size: 150;
+        font-size: 150%;
     }
 }
-    
+
+/* @media screen max-width: 450px */
+@media screen and (max-width: 450px) {
+    #logo {
+        font-size: 150%;
+    }
+    #nav-links {
+        font-size: 100%;
+    }
+    #nav-links, #logo {
+        line-height: 40px;
+    }
+    #cover-text {
+        font-size: 100%;
+        width: 200px;
+        height: 150px;
+        padding-left: 25px;
+        right: 25px;
+        margin-left: 50px;
+    }
+    .form-section {
+        clear: both;
+        height: 750px;
+    }
+    span {
+        font-size: 100%;
+    }
+    .social-networks i {
+        font-size: 100%;
+    }
+}    
