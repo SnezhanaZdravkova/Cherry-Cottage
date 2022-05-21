@@ -7,7 +7,7 @@
 
 body {
     font-family: lato, sans-serif;
-    font-weight: 300;
+    font-weight: 500;
     color: black;
 }
 
@@ -22,6 +22,7 @@ h1, h2 {
 #logo {
     float: left;
     font-size: 280%;
+    margin-left: 5px;
 }
 
 /* navigation links */
@@ -60,7 +61,7 @@ h1, h2 {
     background-size: cover;
 }
 #cover-text, #cover-text h2 {
-    color: aliceblue;
+    color: rgba(165, 42, 42, );
 
 }
 #cover-text {
@@ -167,10 +168,11 @@ span {
     padding: 5%;
     color: green;
 }
-/* @media screen max-eidth: 980px */
+/* @media screen max-eidth: 980px and down */
 @media screen and (max-width: 980px) {
     #nav-links, #logo {
         line-height: 40px;
+        margin-left: 5px;
     }
     #nav-links li {
         clear: both;
@@ -184,6 +186,9 @@ span {
     }
     hr {
         display: none;
+    }
+    .form-section {
+        height: 700;
     }
 
     
@@ -203,8 +208,8 @@ span {
     }
 }
 
-/* @media screen max-width: 450px */
-@media screen and (max-width: 450px) {
+/* @media screen max-width: 600px and down */
+@media screen and (max-width: 600px) {
     #logo {
         font-size: 150%;
     }
