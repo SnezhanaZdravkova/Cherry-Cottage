@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@300,700&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -6,9 +6,9 @@
 }
 
 body {
-    font-family: lato, sans-serif;
+   
     font-weight: 400;
-    color: black;
+   
 }
 
 /* Heading and logo */
@@ -65,7 +65,7 @@ h1, h2 {
 
 }
 #cover-text {
-    font-size: 130%;
+    
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -73,9 +73,9 @@ h1, h2 {
     height: 200px;
     padding-top: 20px;
     padding-left: 20px;
+    
     background-color: rgba(232, 241, 107, 0.312);
     bottom: 30px;
-    right: 250px;
     position: absolute;
 }
 #poultry {
@@ -187,6 +187,7 @@ footer {
     }
     #nav-links {
         height: 10px;
+        letter-spacing: normal;
     }
     hr {
         display: none;
