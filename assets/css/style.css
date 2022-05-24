@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@300,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@300,&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -6,14 +6,14 @@
 }
 
 body {
-   
+    font-family: lato, sans-serif;
     font-weight: 400;
    
 }
 
 /* Heading and logo */
 
-h1, h2 {
+h1, h2, h3 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -46,7 +46,7 @@ h1, h2 {
     border-top: 1px solid black;
 }
 
-/* roberto image */
+/* pexels image */
 #image {
     height: 600px;
     width: 100%;
@@ -65,15 +65,15 @@ h1, h2 {
 
 }
 #cover-text {
-    float: right;
+    font-size: 120%;
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    width: 400px;
-    height: 200px;
+    width: 350px;
+    height: 150px;
     padding-top: 20px;
     padding-left: 20px;
-    
+    right: 250px;
     background-color: rgba(232, 241, 107, 0.312);
     bottom: 30px;
     position: absolute;
@@ -172,8 +172,22 @@ footer {
     padding: 25px;
     color: green;
 }
-/* @media screen max-eidth: 980px and down */
-@media screen and (max-width: 980px) {
+/* @media screen max-width: 1200px and down */
+@media screen and (max-width: 1200px) {
+    #logo {
+        margin-left: 5px;
+    }
+    #logo, #nav-links {
+        line-height: 75px;
+
+    }
+    #nav-links li {
+        float: left;
+    }
+}
+
+/* @media screen max-width: 950px and down */
+@media screen and (max-width: 950px) {
     #nav-links, #logo {
         line-height: 40px;
         margin-left: 5px;
@@ -215,8 +229,8 @@ footer {
     }
 }
 
-/* @media screen max-width: 600px and down */
-@media screen and (max-width: 600px) {
+/* @media screen max-width: 800px and down */
+@media screen and (max-width: 800px) {
     #logo {
         font-size: 150%;
     }
