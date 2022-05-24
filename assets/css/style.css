@@ -56,7 +56,7 @@ h1, h2 {
 #pexels-photo {
     height: 600px;
     width: 100%;
-    background: url('/assets/css/images/pexels-photo-11495863.jpeg') no-repeat center center;
+    background: url('/assets/css/images/pexels-photo-11495863-min.jpeg') no-repeat center center;
     background-color: rgba(36, 128, 0, 0.274);
     background-size: cover;
 }
@@ -65,7 +65,7 @@ h1, h2 {
 
 }
 #cover-text {
-    
+    float: right;
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
