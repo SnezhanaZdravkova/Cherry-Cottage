@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@300&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@300&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -14,7 +14,7 @@ body {
 
 /* Heading and logo */
 
-h1, h2, h3 {
+/*h1, h2, h3 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -26,7 +26,7 @@ h1, h2, h3 {
 }
 
 /* navigation links */
-#nav-links {
+/*#nav-links {
     font-size: 110%;
     letter-spacing: 2px;
 }
@@ -68,7 +68,7 @@ h1, h2, h3 {
 }*/
 
 /* Form */
-.form-section {
+/*.form-section {
     clear: left;
     background-color: #3c3c3c84;
     height: 600px;
@@ -112,11 +112,11 @@ h1, h2, h3 {
 .join-button:hover {
     background-color: green;
     color: #fff;
-}
+}*/
 
 
 /* Footer */
-footer {
+/*footer {
     height: 150px;
     background-color: aqua;
 }
