@@ -106,7 +106,7 @@ hr {
 .form-section {
     clear: left;
     background-color: #3c3c3c84;
-    height: 600px;
+    height: 700px;
     margin-top: 0px;
     margin-bottom: 0px;
 }
@@ -135,6 +135,12 @@ hr {
 .text-input:hover {
     border-color: green;
 }
+.radio {
+    background: transparent;
+    color: #fff;
+    
+    display: block;
+}
 .join-button {
     margin-top: 30px;
     padding: 15px 30px 15px 30px;
@@ -158,7 +164,7 @@ footer {
 .aqua p {
     text-align: center;
     font-size: 200%;
-    font-weight: 400;
+    font-weight: 300;
 }
 .social-networks {
     text-align: center;
@@ -214,7 +220,7 @@ footer {
 .aqua p {
         text-align: center;
         font-size: 150%;
-        font-weight: 400;
+        font-weight: 300;
     }
 
     .social-networks {
