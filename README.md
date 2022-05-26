@@ -176,7 +176,7 @@ Website was tested by running locally and tested on the deployed version. No dif
 
 - As a Frequent user, I want to check to see if there are any new photos and media from the clubs activities. - Testing is yet to performed to ensure a gallery had been added with photos from the clubs activities.
 
-- As a Frequent user, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation. - Testing is to be performed to validate a checkbox had been added to the contact form allowing users to sign up for the Club newsletter.
+- As a Frequent user, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation. - Testing is to be performed to validate a checkbox had been added to the contact form allowing users to sign up for the Farm newsletter.
 
 ## Deployment
 
