@@ -208,9 +208,13 @@ A clone of the project will be created locally on your machine.
 ## Credits
 
 - Media
-The photos used are taken from [Pexsels](https://www.pexels.com/photo/white-and-brown-house-near-green-grass-field-11495863/) 
+- The photos used are taken from [Pexsels](https://www.pexels.com/photo/white-and-brown-house-near-green-grass-field-11495863/)
+- The icons are taken Font Awesome [icons](script src="https://kit.fontawesome.com/ac5db2b5b6.js" crossorigin="anonymous"></script)
+- The idea for main image cover text and the Footer is from `Love Running` project
 
 ## Acknowledgements
 
-I would like to thank my mentor Ronan for his guidance throughout my project and his advice.
-I would like to thank Code Institute for giving me chance to learn codding.
+- I would like to thank my mentor Ronan for his guidance throughout my project and his advice.
+- I would like to thank Code Institute for giving me chance to learn codding.
+- I am very grateful to @Daisy-McG
+
