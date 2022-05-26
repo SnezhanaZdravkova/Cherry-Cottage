@@ -166,6 +166,11 @@ All Pages were run through the `W3C HTML Validator` and showed no errors.
 
 CSS Stylesheet was run through the` W3C CSS Validator` and showed no errors.
 - [style.css](/assets/css/images/screenshots/css.png)
+
+Lighthouse Test
+
+![Lighthouse-test](/assets/css/images/screenshots/lighthouse-test.png)
+
 Website was tested by running locally and tested on the deployed version. No differences found.
 
 Elements on the page were tested manually by clicking on each element and verifying that the correct functionality occurred.  Functional tests were tested on Safari, Chrome and Firefox browsers.  No issues were found.
