@@ -1,108 +1,216 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome Snezhana Zdravkova,
+# Cherry Cottage
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+The `Cherry Cottage` website is a landing page for:
+- people oun an electric car and need to charge up the car battery.
+ - free hot coffee will be waithing fot them;
+ - free fast wifi can be used while waithing.
+- people surching for poultry farm, where children and parents can enjoy the time together.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+Users of this website will be able to find all the information they need to know about where is based Cherry Cottage, payment method, what will be useful for them for the time they are waiting for there car to get ready, to see exactly when they should be join the grups for visit the Poultry farm and also they can fill up the sign up form for rezervations and oders.
 
-## Gitpod Reminders
+This website was built using the knowledge gained from the HTML, CSS and User Centric Design modules. A full list of technologies used can be found in the technologies section of this document.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+The live website can be found [here](https://snezhanazdravkova.github.io/Cherry-Cottage/).
 
-`python3 -m http.server`
+# Cherry Cottage Responsive Website
 
-A blue button should appear to click: _Make Public_,
+[Screenshot](../Cherry-Cottage/assets/css/images/Screenshot%20(2).png)
 
-Another blue button should appear to click: _Open Browser_.
+https://techsini.com/multi-mockup/
+Multi device website mockup generator online tool have been used to test my responsive website on apple devices including Apple iMac, Macbook, iPad and iPhone. 
+`Cherry Cottage` is a fully responsive website that could be used to advertise and showcase all activites and show the ability to increase ticket sales for charity events by selling them though the website.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+# User Experience Design
+## User stories
+### First Time Visitor Goals
+- As a First Time user, I want to easily understand the main purpose of the site and learn more about the organisation.
+- As a First Time user, I want to be able to easily navigate throughout the site to find content.
+- As a First Time user, I want to view the website and content clearly on my mobile device.
+- As a First Time user, I want to find ways to follow the HOTD Club on different social media platforms.
+### Returning Visitor Goals
+- As a Returning user, I want to order tickets online in advance of events so that I am garanteed entry.
+- As a Returning user, I want to contact the organisation so I can request more information.
+### Frequent Visitor Goals
+- As a Frequent user, I want to check to see if there are any new upcoming events.
+- As a Frequent user, I want to check to see if there are any new photos and media from the clubs activities.
+- As a Frequent user, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
 
-A blue button should appear to click: _Make Public_,
 
-Another blue button should appear to click: _Open Browser_.
+## Structure
+All Pages will contain a Navigation menu at the top of the Webpage that directs them to a new Page to easily allow users to Navigate the site easily. The Nav Menu will be collapsable on a Mobile device to make use of space on smaller devices. The purpose of this is to fulfill user story:
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+- As a First Time user, I want to be able to easily navigate throughout the site to find content.
 
-To log into the Heroku toolbelt CLI:
+The Home Page will contain a small bio about the place. The purpose of this is to fulfill user story:
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+- As a First Time user, I want to easily understand the main purpose of the site and learn more about the organisation.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+Custom CSS and/or Bootstrap will be used to make the Website responsive by the use of media queries and/or the Boostrap Grid system.
 
-------
+All pages will be responsive and the layouts will change dependant on screen size. This is to ensure content flow is appealing, images are displayed properly and that the content is not shrunk side by side, so small that it is unreadable. The purpose of this is to fulfill user story:
 
-## Release History
+- As a First Time user, I want to view the website and content clearly on my mobile device.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+All pages will contain a Footer Element with Contact Information, Event Booking and Social Media Icons. The icons used will be from font-awesome. These are referenced below in the Frameworks-Libraries-and-Programs-Used section of this document. The aim of the Footer elements are to fulfill user stories:
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+- As a First Time user, I want to find ways to follow the HOTD Club on different social media platforms.
+- As a Returning user, I want to order tickets online in advance of events so that I am garanteed entry.
+- As a Returning user, I want to contact the club so I can request more information.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+The About Page will contain The History of the Farm. More images will be uplowd soon. This page is to help implement user story:
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+- As a First Time user, I want to easily understand the main purpose of the site and learn more about the organisation.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+The Events Page and the Gallerys page are still to be created, the About us section is to become separate Abou us page, so to be able to fill more stories about our organisation.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+The Events Page will contain information on upcoming and previous events run by the Farm house. There will be a booking form connected to this page. The purpose of this is to fulfull user stories:
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+- As a Returning user, I want to order tickets online in advance of events so that I am garanteed entry.
+- As a Frequent user, I want to check to see if there are any new upcoming events.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+The Gallery Page will contain photographs from various activities the Farm has engaged in. The purpose of the gallery to fulfill user story:
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+- As a Frequent user, I want to check to see if there are any new photos and media from the clubs activities.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+The Sign Up Page will contain a form that can be used to contact the Club through the website. This will also contain a check box that will allow the user to sign up for the Farm's newsletter in order to keep up to date with the farm. The purpose of this Page is to fulfill user stories:
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+- As a Returning user, I want to contact the organisation so I can request more information.
+- As a Frequent user, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+## Design
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+### Colour Scheme
+The two main colours used are Green rgba(36, 128, 0, 0.27) and an off shade of Black rgba(0, 0, 0, .1) and black for the text as these colours are similar to the grass colours and the farm. The green and off black shade should compliment each other without being over powering to the eyes.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+###Typography
+The headers on all pages throughout the Website are using the Oswald font while the main text is using the Lato font.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
 
-------
 
-## FAQ about the uptime script
+## Wireframes
 
-**Why have you added this script?**
+Throughout the desktop version of the website there will also be an alert at the top of all pages except the Events Page. This can be engaged with by the user. The resulting action will open up a modal form to allow the user to book event tickets.
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+## Features
+### Existing Features
 
-**How will this affect me?**
+- Contact Form - This can be completed on the signup.html page and used in order to contact the farm with any queries users may have.
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+### Features Left to Implement
+- Users would like to have a forum incorporated into the Website. This feature was not implemented as part of the initial release but will be addressed in a future.
+- In order to implement the use of the proposed forum, signup and logins would have to be added.
+- Alert on Desktop view (Alert present on index.html, about.html, gallery.html, contact.html) - This alert allows users to Book event tickets by opening up a modal form.
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+# Technologies
+- `HTML`
+This project uses HTML as the main language used to complete the structure of the Website.
+- `CSS`
+This project uses custom written CSS to style the Website.
+- `Font Awesome`
+Font awesome Icons are used with some of the titles and for the Social media links contained in the in the Footer section of the website.
+- `Google Fonts`
+Google fonts are used throughout the project to import the Lato and Oswald fonts.
+- `Visual Studio Code`
+VS Code is the Integrated Development Environment used to develop the Website.
+- `GitHub`
+GithHub is the hosting site used to store the source code for the Website and Git Pages is used for the deployment of the live site.
+- `Git`
+Git is used as version control software to commit and push code to the GitHub repository where the source code is stored.
+- `TinyJPG`
+TinyJPG is used to reduce the file sizes of images before being deployed to reduce storage and bandwith.
+- `Google Chrome Developer Tools`
+Google chromes built in developer tools are used to inspect page elements and help debug issues with the site layout and test different CSS styles.
+- `Balsamiq Wireframes`
+This was used to create wireframes for 'The Skeleton Plane' stage of UX design.
+MS PAINT
+- `CSS Generator`
+This was used to convert the RGBA colour for the site to Hex.
+- `Techsini`
+tecnisih.com Multi Device Website Mockup Generator was used to create the Mock up image in this README
+- `placehold.it`
+placehold.it was used to display the colours shown in the Color Scheme section.
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+# Testing
+## Test Strategy
+### Summary
+Testing is required on Cherry Cottage Responsive Website.
 
-**So….?**
+- As this project is static and contains no back-end functionality, the testing performed will be on the visual effects and layout of the Website. Testing to be done on at least three web browsers and all screen sizes.
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+- No elements should overlap another container div. All elements should remain on the screen at all sizes above 300px. All carousel items should be controllable with the mouse as well as sliding on a timer.
 
-**Can I opt out?**
+- All nav links should direct to the correct html pages or to the sections as per their names. The Home page is the exception, this one will redirect to index.html.
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+- All links to external websites must open in a new browser.
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+- Testing of form validation will also be required to ensure the correct inputs are taken and that all fields are required.
 
-**Anything more?**
+- Validation of inclusion for all features included in the Structure of the Website / Wireframes must be performed.
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+The live Project can be found [here](https://snezhanazdravkova.github.io/Cherry-Cottage/).
 
----
+### Out of Scope
+Testing form validation for phone number is out of scope. No Reg-Ex has been implemented so this will take a string value.
 
-Happy coding!
+## Test Results
+
+All Pages were run through the `W3C HTML Validator` and showed no errors.
+CSS Stylesheet was run through the` W3C CSS Validator` and showed no errors.
+Website was tested by running locally and tested on the deployed version. No differences found.
+
+- As a First Time user, I want to easily understand the main purpose of the site and learn more about the organisation. - Testing was performed to ensure information was displayed on the Home Page.
+
+- As a First Time user, I want to be able to easily navigate throughout the site to find content. - Testing was performed on all Navigation links to ensure users can easily navigate the Website.
+
+- As a First Time user, I want to view the website and content clearly on my mobile device. - Testing was performed to ensure the Website was responsive on all devices.
+
+- As a First Time user, I want to find ways to follow the HOTD Club on different social media platforms. - Testing was performed to ensure Social Media links had been added to the Website.
+
+- As a Returning user, I want to order tickets online in advance of events so that I am garanteed entry. - Testing is to be performed to ensure the Booking Modal(Alert on the top of Pages and Booking Button on Events Page) was functioning throughout the Website.
+
+- As a Returning user, I want to contact the organisation so I can request more information. - Testing was done to ensure there was a contact form on the Website and that the Footer also contained contact information.
+
+- As a Frequent user, I want to check to see if there are any new upcoming events. - Testing is to be done to ensure upcoming events were displayed on the Events Page.
+
+- As a Frequent user, I want to check to see if there are any new photos and media from the clubs activities. - Testing is yet to performed to ensure a gallery had been added with photos from the clubs activities.
+
+- As a Frequent user, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation. - Testing is to be performed to validate a checkbox had been added to the contact form allowing users to sign up for the Club newsletter.
+
+## Deployment
+
+## Project Creation
+The project was started by navigating to the template and clicking 'Use this template'. Under Repository name I input `Cherry Cottage` and checked the Include all branches checkbox. I then navigated to the new repository. I then clicked the Code drop down and selected HTTPS and copied the link to the clipboard.
+Opening a bash terminal in Visual studio code I then typed git clone link from clipboard followed by open folder and navigating to the newly created local repository. The following commands were used throughout the project:
+
+- `git add filename` - This command was used to add fils to the staging area before commiting.
+- `git commit -m commit message explaining the updates` - This command was used to commit changes to the local repository.
+- `git push` - This command is used to push all commited changes to the GitHub repository.
+- `git status` - This comand is used to chech is there any new or modifyed files.
+
+Using Github Pages
+Navigate to the GitHub Repository:
+Click the 'Settings' Tab.
+Scroll Down to the Git Hub Pages Heading.
+Select 'Main Branch' as the source.
+Click the Save button.
+Click on the link to go to the live deployed page.
+Run Locally
+Navigate to the GitHub Repository:
+Click the Code drop down menu.
+Either Download the ZIP file, unpackage locally and open with IDE (This route ends here) OR Copy Git URL from the HTTPS dialogue box.
+Open your developement editor of choice and open a terminal window in a directory of your choice.
+Use the `git clone` command in terminal followed by the copied git URL.
+A clone of the project will be created locally on your machine.
+
+
+## Credits
+
+- Media
+The photos used are taken from [Pexsels](https://www.pexels.com/photo/white-and-brown-house-near-green-grass-field-11495863/) 
+
+## Acknowledgements
+
+I would like to thank my mentor Ronan for his guidance throughout my project and his advice.
+I would like to thank Code Institute for giving me chance to learn codding.

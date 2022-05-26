@@ -57,7 +57,7 @@ h1, h2, h3 {
     height: 600px;
     width: 100%;
     background: url('../css/images/pexels-photo-11495863-min.jpeg') no-repeat center center;
-    background-color: rgba(36, 128, 0, 0.274);
+    background-color: rgba(36, 128, 0, 0.27);
     background-size: cover;
 }
 #cover-text, #cover-text h2 {
@@ -99,7 +99,7 @@ hr {
 #about {
     text-align: center;
     height: 300px;
-    background-color: rgba(36, 128, 0, 0.274);
+    background-color: rgba(36, 128, 0, 0.27);
 }
 
 /* Signup form */
