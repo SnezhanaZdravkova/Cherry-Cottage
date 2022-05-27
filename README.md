@@ -209,7 +209,7 @@ Opening a bash terminal in Visual studio code I then typed git clone link from c
 ## Credits
 
 - The photos used are taken from [Pexsels](https://www.pexels.com/photo/white-and-brown-house-near-green-grass-field-11495863/)
-- The icons are taken [Font-Awesome]("https://kit.fontawesome.com/ac5db2b5b6.js"">), according to the terms in their [license](https://www.pexels.com/license/)
+- The icons are taken [Font-Awesome]("https://kit.fontawesome.com/ac5db2b5b6.js">), according to the terms in their [license](https://www.pexels.com/license/)
 - The idea for main image cover text and the Footer is from `Love Running` project
 
 ## Acknowledgements
