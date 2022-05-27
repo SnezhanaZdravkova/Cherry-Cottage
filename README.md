@@ -104,7 +104,8 @@ The headers on all pages throughout the Website are using the Oswald font while 
 
 ## Wireframes
 
-Wireframes showing the layout of the various HTML elements to be added here.
+Wireframes showing the layout of the various HTML elements.
+![Wireframes](/assets/css/images/screenshots/Wireframes.png)
 
 ## Features
 
@@ -160,12 +161,12 @@ The live Project can be found [here](https://snezhanazdravkova.github.io/Cherry-
 ## Test Results
 
 All Pages were run through the `W3C HTML Validator` and showed no errors.
-- [index.html](/assets/css/images/screenshots/index.png)
-- [poultry.html](/assets/css/images/screenshots/poultry.png)
-- [form.html](/assets/css/images/screenshots/signup.png)
+- ![index.html](/assets/css/images/screenshots/index.png)
+- ![poultry.html](/assets/css/images/screenshots/poultry.png)
+- ![form.html](/assets/css/images/screenshots/signup.png)
 
 CSS Stylesheet was run through the` W3C CSS Validator` and showed no errors.
-- [style.css](/assets/css/images/screenshots/css.png)
+- ![style.css](/assets/css/images/screenshots/css.png)
 
 Lighthouse Test
 
@@ -207,13 +208,12 @@ Opening a bash terminal in Visual studio code I then typed git clone link from c
 
 ## Credits
 
-- Media
 - The photos used are taken from [Pexsels](https://www.pexels.com/photo/white-and-brown-house-near-green-grass-field-11495863/)
-- The icons are taken [Font-Awesome](script src="https://kit.fontawesome.com/ac5db2b5b6.js" crossorigin="anonymous"></script), according to the terms in their [license](https://www.pexels.com/license/)
+- The icons are taken [Font-Awesome]("https://kit.fontawesome.com/ac5db2b5b6.js"">), according to the terms in their [license](https://www.pexels.com/license/)
 - The idea for main image cover text and the Footer is from `Love Running` project
 
 ## Acknowledgements
 
-- I would like to thank my mentor Ronan for his guidance throughout my project and his advice.
+- I would like to thank my mentor Ronan McClelland for his guidance throughout my project and his advice.
 - I would like to thank Code Institute for giving me chance to learn codding.
 - I would like to thank @Daisy-McG as I learned from her how to write good documenation for this project. 
